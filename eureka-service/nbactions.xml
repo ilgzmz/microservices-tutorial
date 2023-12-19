@@ -56,7 +56,7 @@
             <actionName>CUSTOM-dependency:resolve</actionName>
             <displayName>dependency:resolve</displayName>
             <goals>
-                <goal>dependeny:resolve</goal>
+                <goal>dependency:resolve</goal>
             </goals>
         </action>
     </actions>
