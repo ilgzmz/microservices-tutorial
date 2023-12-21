@@ -12,7 +12,7 @@
     <groupId>bike-svc</groupId>
     <artifactId>bike-svc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>bike-service</name>
+    <name>bike-svc</name>
     <description>Bike Service</description>
 
     <properties>
