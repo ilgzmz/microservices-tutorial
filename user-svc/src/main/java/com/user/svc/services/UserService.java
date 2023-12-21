@@ -24,7 +24,8 @@ public class UserService {
     private RestTemplate restTemplate;
 
     // Bikes
-    private String baseUriBike = "http://localhost:8002/bike/";
+    //private String baseUriBike = "http://localhost:8002/bike/";
+    private String baseUriBike = "http://bike-service/bike/";
 
     public List<Bike> getBikes(Long userId) {
         List<Bike> bikes = restTemplate.getForObject(
@@ -35,7 +36,9 @@ public class UserService {
     }
 
     // Cars
-    private String baseUriCar = "http://localhost:8003/car/";
+    // Used for services with a fixed port.
+    //private String baseUriCar = "http://localhost:8003/car/";
+    private String baseUriCar = "http://car-service/car/";
 
     public List<Car> getCars(Long userId) {
         List<Car> cars = restTemplate.getForObject(
