@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @FeignClient(
         name = "car-service",
-        url = "http://localhost:8003",
+        // Used only if the service has an unique port
+        //url = "http://localhost:8003",
         path = "/car"
 )
 public interface CarFeignClient {
